@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/security-browser/pom.xml" />
+        <option value="$PROJECT_DIR$/security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/security-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>security</artifactId>
+        <groupId>io.github.taowang0622</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../security/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>security-browser</artifactId>
+    <packaging>jar</packaging>
+
+    <name>security-browser</name>
+    <url>http://maven.apache.org</url>
+
+
+    <dependencies>
+        <dependency>
+           <groupId>io.github.taowang0622</groupId>
+            <artifactId>security-core</artifactId>
+            <version>${project.security.version}</version>
+        </dependency>
+
+        <!--for session management, like HttpSession, Clustered sessions...-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session</artifactId>
+        </dependency>
+    </dependencies>
+</project>

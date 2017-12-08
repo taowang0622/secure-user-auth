@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.taowang0622</groupId>
+  <artifactId>security</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <!--"pom" means this module is a parent POM and it inherits implicitly from Super POM-->
+  <packaging>pom</packaging>
+
+  <name>security</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.security.version>1.0.0-SNAPSHOT</project.security.version>
+  </properties>
+
+  <modules>
+    <module>../security-core</module>
+    <module>../security-app</module>
+    <module>../security-browser</module>
+    <module>../security-demo</module>
+  </modules>
+
+  <!--<dependencyManagement></dependencyManagement> for child modules to inherit-->
+  <dependencyManagement>
+    <dependencies>
+      <!--spring-io-platform-->
+      <!--The Spring IO platform provides versions of the various Spring projects and their dependencies-->
+      <!--With the configuration below, able to declare dependencies without having to worry about version numbers-->
+      <!--This can guarantee that all dependencies are compatible with each other without specifying their version numbers!-->
+      <!--The secret is that it's a pom dependency and must be declared in parent dom with the tags <type>pom<type> and <scope>import</scope>
+      that is the idea of BOM-->
+      <dependency>
+        <groupId>io.spring.platform</groupId>
+        <artifactId>platform-bom</artifactId>
+        <version>Brussels-SR6</version>
+        <type>pom</type> <!--meaning this dependency is a pom file, and by default <type> is "jar"-->
+        <!--<type>pom</type> pairs with <scope>import</scope> in dependencyManagement section can implement BOM(bill of materials)
+        which is similar to "multi-inheritance"!!-->
+        <scope>import</scope>
+      </dependency>
+      <!--spring-cloud-->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Dalston.SR4</version>
+        <!--In this pom dependency's dependencyManagement section, it inherits a lot of other pom dependencies that form a hug BOM!!!!-->
+        <type>pom</type>
+        <scope>import</scope>
+        <!--Best practice is never setting <scope> in parent POM and letting its child POM to specify, unless its type is POM-->
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <!--Maven is based on the central concept of a "build" lifecycle-->
+  <!--Therefore using <plugin> tags within <build> tag enables us to configure all plugins used in lifecycles!!!-->
+  <build>
+    <!--<pluginManagement></pluginManagement> for child modules to inherit-->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.3.2</version>
+          <!--When maven builds this artifact and uses the plugin "maven-compiler-plugin",
+          the configuration below will take effect-->
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+            <encoding>${project.build.sourceEncoding}</encoding>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

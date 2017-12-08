@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-browser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/securitybrowser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/securitycore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/securitycore" charset="UTF-8" />
+  </component>
+</project>
