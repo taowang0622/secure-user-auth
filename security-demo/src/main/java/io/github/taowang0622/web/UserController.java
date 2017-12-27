@@ -3,6 +3,7 @@ package io.github.taowang0622.web;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import io.github.taowang0622.dto.User;
+import io.github.taowang0622.exception.UserNotExistException;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -19,7 +20,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
     @DeleteMapping("/{id:\\d+}")
-    public void update(@PathVariable int id) {
+    public void delete(@PathVariable int id) {
         System.out.println(id);
     }
 
@@ -74,8 +75,9 @@ public class UserController {
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
     public User getInfo(@PathVariable int id) {
-        User user = new User();
-        user.setUserName("kevin");
-        return user;
+        throw new UserNotExistException(id);
+//        User user = new User();
+//        user.setUserName("kevin");
+//        return user;
     }
 }

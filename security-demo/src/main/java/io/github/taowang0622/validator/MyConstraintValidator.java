@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 
 /*
 Spring detects a class that implements ConstraintValidator<A, T>, then it will make it a Spring bean.
-As a result, we can wire other beans inside!!
+As a result, we can *autowire* any other beans inside!!
  */
 public class MyConstraintValidator implements ConstraintValidator<MyConstraint, Object> {
     @Autowired
