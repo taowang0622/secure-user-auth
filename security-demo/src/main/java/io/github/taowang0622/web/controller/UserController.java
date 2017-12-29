@@ -1,4 +1,4 @@
-package io.github.taowang0622.web;
+package io.github.taowang0622.web.controller;
 
 
 import com.fasterxml.jackson.annotation.JsonView;
@@ -75,9 +75,12 @@ public class UserController {
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
     public User getInfo(@PathVariable int id) {
-        throw new UserNotExistException(id);
-//        User user = new User();
-//        user.setUserName("kevin");
-//        return user;
+//        throw new UserNotExistException(id);
+//        throw new RuntimeException("runtime exception");
+
+        System.out.println("Entering getInfo API");
+        User user = new User();
+        user.setUserName("kevin");
+        return user;
     }
 }

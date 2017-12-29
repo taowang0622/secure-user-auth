@@ -1,4 +1,4 @@
-package io.github.taowang0622.web;
+package io.github.taowang0622.web.controller;
 
 import io.github.taowang0622.exception.UserNotExistException;
 import org.springframework.http.HttpStatus;
@@ -18,9 +18,9 @@ import java.util.Map;
 public class ControllerExceptionHandler {
 
     @ExceptionHandler(UserNotExistException.class)
+    @ResponseStatus(value = HttpStatus.NOT_FOUND)
     @ResponseBody
     //if @ResponseStatus not set, the status code would be 200!!
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public Map<String, Object> handleUserNotExistException(UserNotExistException ex) {
         HashMap<String, Object> map = new HashMap<>();
         map.put("id", ex.getId());
