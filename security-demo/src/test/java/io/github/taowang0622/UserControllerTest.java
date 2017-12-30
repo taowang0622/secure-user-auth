@@ -6,9 +6,11 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
+import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.time.LocalDateTime;
@@ -96,5 +98,27 @@ public class UserControllerTest {
     public void whenDeleteSuccess() throws Exception {
         mockMvc.perform(delete("/user/1"))
                 .andExpect(status().isOk());
+    }
+
+    @Test
+    public void whenUploadSuccess() throws Exception {
+        String result = mockMvc.perform(fileUpload("/file")
+                //Within request headers, file=test.txt(a key-value pair!!)
+                .file(new MockMultipartFile("file",
+                        "test.txt",
+                        "multipart/form-data",
+                        "Hello Upload".getBytes("UTF-8"))))
+                //***************request headers****************//
+                //Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAJZ6eKlJ0fSEBRln
+                //Content-Length: 940
+                //**************request body/payload******************//
+                //----WebKitFormBoundaryAJZ6eKlJ0fSEBRln
+                //Content-Disposition: form-data; name="file"; filename="test.txt"
+                //Content-Type: text/plain
+                //67
+                //----WebKitFormBoundaryAJZ6eKlJ0fSEBRln
+                .andExpect(status().isOk())
+                .andReturn().getResponse().getContentAsString();
+        System.out.println(result);
     }
 }
