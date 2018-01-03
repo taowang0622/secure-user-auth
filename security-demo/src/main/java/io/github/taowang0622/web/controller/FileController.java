@@ -30,11 +30,14 @@ public class FileController {
 
     @GetMapping("/{id}")
     public void download(@PathVariable String id, HttpServletRequest request, HttpServletResponse response) throws IOException {
-        try(InputStream is = new FileInputStream(new File(folder, id + ".txt"));
-        OutputStream os = response.getOutputStream();){
+        //try(*resources*){...}catch{...}finally{...}=====>try-with-resources statement!!
+        try (InputStream is = new FileInputStream(new File(folder, id + ".txt"));
+             OutputStream os = response.getOutputStream()) { //os will be closed first, then is follows!!
+//            response.setContentType("text/plain"); is also working!!!!
             response.setContentType("application/x-download");
+            //"attachment" tells the browser to download the transferred file, in contrast, "inline" for displaying it!
+            //";filename=test.txt" tells the browser that if it wants to save it as a file, preferably named "test.txt"!!!
             response.addHeader("Content-Disposition", "attachment;filename=test.txt");
-
             IOUtils.copy(is, os);
             os.flush();
         }
