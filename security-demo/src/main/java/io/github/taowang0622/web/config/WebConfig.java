@@ -13,15 +13,15 @@ import java.util.ArrayList;
 
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter{
-    @Autowired
-    TimeInterceptor timeInterceptor;
+//    @Autowired
+//    TimeInterceptor timeInterceptor;
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(timeInterceptor);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(timeInterceptor);
+//    }
 
-    @Bean
+//    @Bean
     public FilterRegistrationBean timeFilter() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
 

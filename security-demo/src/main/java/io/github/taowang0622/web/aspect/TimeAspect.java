@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class TimeAspect {
 
     @Around("execution(* io.github.taowang0622.web.controller.UserController.*(..))")
