@@ -1,0 +1,512 @@
+16:17:10.494 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.510 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.510 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.510 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.512 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.512 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.513 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'security.oauth2.client-org.springframework.boot.autoconfigure.security.oauth2.OAuth2ClientProperties'
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'loggersMvcEndpoint'
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'loggersEndpoint'
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.514 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.525 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.527 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'endpoints.jmx-org.springframework.boot.actuate.autoconfigure.EndpointMBeanExportProperties'
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.528 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.531 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.534 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties'
+16:17:10.534 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.534 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.534 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.534 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'shutdownEndpoint'
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.535 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beansEndpoint'
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingEndpoint'
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.543 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.555 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.558 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSource'
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.559 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.594 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.620 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSourceInitializer'
+16:17:10.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'refreshEndpoint'
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.621 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.625 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.626 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'endpoints.cors-org.springframework.boot.actuate.autoconfigure.EndpointCorsProperties'
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.629 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'heapdumpMvcEndpoint'
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.636 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.637 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.638 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.639 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.640 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.642 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'environmentMvcEndpoint'
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.643 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.644 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties'
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.645 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resumeEndpoint'
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.646 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.647 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.648 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.649 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.650 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.username' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.651 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.driver-class-name' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.password' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.url' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'Management Server' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:10.676 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.datasource.username' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:10.676 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence

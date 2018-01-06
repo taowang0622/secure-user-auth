@@ -4,6 +4,8 @@ package io.github.taowang0622.web.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import io.github.taowang0622.dto.User;
 import io.github.taowang0622.exception.UserNotExistException;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -57,6 +59,7 @@ public class UserController {
 
     @GetMapping
     @JsonView(User.UserSimpleView.class)
+    @ApiOperation("Retrieving all user info!!")
     public List<User> query(User user, @PageableDefault(page = 2, size = 17, sort = "username, asc") Pageable pageable) {
         System.out.println(ReflectionToStringBuilder.toString(user, ToStringStyle.MULTI_LINE_STYLE));
 
@@ -74,7 +77,7 @@ public class UserController {
 
     @GetMapping("/{id:\\d+}")
     @JsonView(User.UserDetailView.class)
-    public User getInfo(@PathVariable int id) {
+    public User getInfo(@ApiParam(value = "The user ID") @PathVariable int id) {
 //        throw new UserNotExistException(id);
 //        throw new RuntimeException("runtime exception");
 

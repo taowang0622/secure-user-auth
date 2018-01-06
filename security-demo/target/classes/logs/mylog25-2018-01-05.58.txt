@@ -1,0 +1,48 @@
+16:17:07.561 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'keyValueMappingContext'
+16:17:07.583 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisCustomConversions'
+16:17:07.583 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'redisCustomConversions'
+16:17:07.583 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'redisCustomConversions' to allow for resolving potential circular references
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'redisCustomConversions'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisReferenceResolver'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'redisReferenceResolver'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisTemplate'
+16:17:07.610 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'redisReferenceResolver' to allow for resolving potential circular references
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'redisReferenceResolver'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisConverter'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'redisConverter'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.627 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'keyValueMappingContext'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'redisConverter' to allow for resolving potential circular references
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisReferenceResolver'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisCustomConversions'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'redisConverter'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'redisConverter'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisKeyValueAdapter'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'redisKeyValueAdapter'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisTemplate'
+16:17:07.660 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisConverter'
+16:17:07.676 [main] DEBUG org.springframework.beans.BeanUtils - No property editor [org.springframework.data.redis.core.mapping.RedisMappingContextEditor] found for type org.springframework.data.redis.core.mapping.RedisMappingContext according to 'Editor' suffix convention
+16:17:07.710 [main] DEBUG o.s.d.r.l.RedisMessageListenerContainer - Postpone listening for Redis messages until actual listeners are added
+16:17:07.710 [main] DEBUG o.s.d.r.l.RedisMessageListenerContainer - Started RedisMessageListenerContainer
+16:17:07.710 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'redisKeyValueAdapter' to allow for resolving potential circular references
+16:17:07.737 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'redisKeyValueAdapter'
+16:17:07.737 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.737 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.738 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'redisKeyValueAdapter'
+16:17:07.738 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'redisKeyValueTemplate'
+16:17:07.738 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'redisKeyValueTemplate'
+16:17:07.738 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.742 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'redisKeyValueAdapter'
+16:17:07.742 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'keyValueMappingContext'
+16:17:07.893 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'redisKeyValueTemplate' to allow for resolving potential circular references
+16:17:07.941 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:07.941 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'

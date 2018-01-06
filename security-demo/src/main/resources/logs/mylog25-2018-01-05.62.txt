@@ -1,0 +1,64 @@
+16:17:09.064 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+16:17:09.074 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration' via constructor to bean named 'transactionManager'
+16:17:09.074 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration' to allow for resolving potential circular references
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionTemplate'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'transactionTemplate'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'transactionTemplate' to allow for resolving potential circular references
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'transactionTemplate'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'transactionTemplate'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'platformTransactionManagerCustomizers'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.security.SecurityFilterAutoConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'securityFilterChainRegistration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.NoOpSessionConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.session.NoOpSessionConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.session.NoOpSessionConfiguration' to allow for resolving potential circular references
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.session.NoOpSessionConfiguration'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+16:17:09.076 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.110 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'serverProperties'
+16:17:09.110 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties' to allow for resolving potential circular references
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:09.110 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfig: [classpath:/application.properties]' with value of type String
+16:17:09.126 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.126 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.127 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+16:17:09.127 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator' via constructor to bean named 'spring.session-org.springframework.boot.autoconfigure.session.SessionProperties'
+16:17:09.128 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator]: public void org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator.checkSessionRepository()
+16:17:09.128 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Registered init method on class [org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@41858258
+16:17:09.128 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator' to allow for resolving potential circular references
+16:17:09.129 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator': public void org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$SessionRepositoryValidator.checkSessionRepository()
+16:17:09.129 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.129 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'

@@ -1,0 +1,10 @@
+16:16:55.961 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.167 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.messages.basename' in any property source
+16:16:56.167 [main] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [messages.properties] to resources []
+16:16:56.167 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.175 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.193 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.224 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.228 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.229 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:56.229 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'

@@ -1,0 +1,32 @@
+16:16:57.956 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.964 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfigurationProperties' with value of type String
+16:16:57.964 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.964 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.964 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfigurationProperties' with value of type String
+16:16:57.965 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.965 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfigurationProperties' with value of type String
+16:16:57.965 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.965 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfigurationProperties' with value of type String
+16:16:57.965 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.965 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.session.store-type' in PropertySource 'applicationConfigurationProperties' with value of type String
+16:16:57.965 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.967 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.967 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.967 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.967 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:57.967 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.002 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.002 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.002 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.002 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.009 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.020 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.020 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.021 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.029 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.042 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.044 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.044 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.048 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.048 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
+16:16:58.049 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'

@@ -1,0 +1,8 @@
+16:17:14.259 [RMI TCP Connection(10)-10.24.219.221] DEBUG o.s.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+16:17:14.294 [RMI TCP Connection(10)-10.24.219.221] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [SELECT 1]
+16:17:14.297 [RMI TCP Connection(10)-10.24.219.221] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+16:17:14.336 [RMI TCP Connection(10)-10.24.219.221] DEBUG o.s.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+16:18:21.373 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet'
+16:18:21.377 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:18:21.378 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:18:21.378 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartResolver'

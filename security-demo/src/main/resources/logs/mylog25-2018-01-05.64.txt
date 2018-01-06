@@ -1,0 +1,99 @@
+16:17:09.296 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$RefreshScopeConfiguration'
+16:17:09.659 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration'
+16:17:09.659 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'loggingRebinder'
+16:17:09.659 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'loggingRebinder'
+16:17:09.659 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.664 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'loggingRebinder' to allow for resolving potential circular references
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'loggingRebinder'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'environmentManager'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contextRefresher'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'refreshEventListener'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'refreshEventListener'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contextRefresher'
+16:17:09.665 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'refreshEventListener' via factory method to bean named 'contextRefresher'
+16:17:09.680 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'refreshEventListener' to allow for resolving potential circular references
+16:17:09.685 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.685 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.686 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'refreshEventListener'
+16:17:09.686 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'
+16:17:09.686 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'
+16:17:09.686 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.687 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$cd292215]: AutowiredFieldElement for private org.springframework.boot.autoconfigure.web.ServerProperties org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.server
+16:17:09.687 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$cd292215]: AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.context
+16:17:09.689 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$cd292215]: AutowiredFieldElement for private java.lang.String org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.serviceId
+16:17:09.689 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$cd292215]: AutowiredFieldElement for private org.springframework.cloud.commons.util.InetUtils org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.inet
+16:17:09.689 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration' to allow for resolving potential circular references
+16:17:09.698 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration': AutowiredFieldElement for private org.springframework.boot.autoconfigure.web.ServerProperties org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.server
+16:17:09.698 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'serverProperties'
+16:17:09.698 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration' to bean named 'serverProperties'
+16:17:09.698 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration': AutowiredFieldElement for private org.springframework.context.ApplicationContext org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.context
+16:17:09.698 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration' to bean named 'org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49cb9cb5'
+16:17:09.698 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration': AutowiredFieldElement for private java.lang.String org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.serviceId
+16:17:09.698 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name:application' in any property source
+16:17:09.698 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name:application' in any property source
+16:17:09.698 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name' in any property source
+16:17:09.698 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name' in any property source
+16:17:09.698 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration': AutowiredFieldElement for private org.springframework.cloud.commons.util.InetUtils org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration.inet
+16:17:09.698 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'inetUtils'
+16:17:09.698 [main] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration' to bean named 'inetUtils'
+16:17:09.698 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.698 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.708 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'
+16:17:09.709 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleDiscoveryProperties'
+16:17:09.709 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'simpleDiscoveryProperties'
+16:17:09.709 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.709 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'
+16:17:09.931 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Found init method on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryProperties]: public void org.springframework.cloud.client.discovery.simple.SimpleDiscoveryProperties.init()
+16:17:09.931 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Registered init method on class [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryProperties]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@316510
+16:17:09.931 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'simpleDiscoveryProperties' to allow for resolving potential circular references
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemProperties' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'systemEnvironment' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'random' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'applicationConfig: [classpath:/application.properties]' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'springCloudClientHostInfo' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'defaultProperties' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.core.env.MutablePropertySources - Adding PropertySource 'localProperties' with lowest search precedence
+16:17:09.935 [main] DEBUG o.s.c.a.CommonAnnotationBeanPostProcessor - Invoking init method on bean 'simpleDiscoveryProperties': public void org.springframework.cloud.client.discovery.simple.SimpleDiscoveryProperties.init()
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'simpleDiscoveryProperties'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleDiscoveryClient'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'simpleDiscoveryClient'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'simpleDiscoveryProperties'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'simpleDiscoveryClient' via factory method to bean named 'simpleDiscoveryProperties'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'simpleDiscoveryClient' to allow for resolving potential circular references
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'simpleDiscoveryClient'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.935 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration' to allow for resolving potential circular references
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration' to allow for resolving potential circular references
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'refreshScope'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+16:17:09.943 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+16:17:09.993 [main] DEBUG o.s.c.e.EventListenerMethodProcessor - 2 @EventListener methods processed on bean 'refreshEventListener': {public void org.springframework.cloud.endpoint.event.RefreshEventListener.handle(org.springframework.boot.context.event.ApplicationReadyEvent)=@org.springframework.context.event.EventListener(value=[], classes=[], condition=), public void org.springframework.cloud.endpoint.event.RefreshEventListener.handle(org.springframework.cloud.endpoint.event.RefreshEvent)=@org.springframework.context.event.EventListener(value=[], classes=[], condition=)}
+16:17:09.993 [main] DEBUG o.s.c.e.EventListenerMethodProcessor - 1 @EventListener methods processed on bean 'refreshScope': {public void org.springframework.cloud.context.scope.refresh.RefreshScope.start(org.springframework.context.event.ContextRefreshedEvent)=@org.springframework.context.event.EventListener(value=[], classes=[], condition=)}
+16:17:09.993 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authenticationManager'
+16:17:09.993 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:17:09.993 [main] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Autodetecting user-defined JMX MBeans
+16:17:10.096 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'configurationPropertiesRebinder'
+16:17:10.096 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure

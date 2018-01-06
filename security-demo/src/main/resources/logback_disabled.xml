@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--debug="true" enables logback to print out the internal status info-->
+<!--scan="true" enables logback to monitor the configuration file and if it changes, it will apply it-->
+<!--scanPeriod enables Logback to scan the configuration file at the interval of specified time-->
+<configuration scan="true" scanPeriod="10 seconds" debug="true">
+    <!--logs directory-->
+    <!--The path of the directory must be absolute path-->
+    <property name="LOG_DIR" value="D:/JAVA_PROJECTS/secure-user-auth/security-demo/src/main/resources/logs"/>
+    <property name="LOG_FILE_NAME" value="mylog25"/>
+    <property name="LOG_FILE_NAME1" value="mylog26"/>
+    <property name="MAX_FILE_SIZE" value="1KB"/>
+
+    <!--logs directory-->
+    <timestamp key="anyEx" datePattern="yyyyMMdd'AT'HHmmss" />
+
+    <appender name="RollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/${LOG_FILE_NAME}.txt</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--rollover daily-->
+            <fileNamePattern>${LOG_DIR}/${LOG_FILE_NAME}-%d{yyyy-MM-dd}.%i.txt</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="io.github.taowang0622" level="info">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <root level="debug">
+        <appender-ref ref="RollingFileAppender"/>
+    </root>
+</configuration>

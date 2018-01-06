@@ -2,6 +2,7 @@ package io.github.taowang0622.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import io.github.taowang0622.validator.MyConstraint;
+import io.swagger.annotations.ApiModelProperty;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.NotNull;
@@ -14,10 +15,12 @@ public class User {
 
     @JsonView(UserSimpleView.class)
     @MyConstraint(message = "This is a test for customized validator!!")
+    @ApiModelProperty(value = "The name of the user")
     private String userName;
     @JsonView(UserDetailView.class)
 //    @NotNull
     @NotBlank(message = "Password cannot be blank!!")
+    @ApiModelProperty(value = "The password of the user")
     private String password;
     private int id;
     @JsonView(UserSimpleView.class)

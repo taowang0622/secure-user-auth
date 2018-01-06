@@ -1,0 +1,16 @@
+16:16:54.432 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'context.initializer.classes' in any property source
+16:16:54.456 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.config.name:application' in any property source
+16:16:54.457 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.config.name' in any property source
+16:16:54.457 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'vcap.application.name:application' in any property source
+16:16:54.457 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'vcap.application.name' in any property source
+16:16:54.457 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name:application' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'PORT:null' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'PORT' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.port:null' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.port' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.index:null' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.index' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'vcap.application.instance_index:null' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'vcap.application.instance_index' in any property source
+16:16:54.458 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.active' in any property source
