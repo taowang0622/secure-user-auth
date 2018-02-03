@@ -16,6 +16,7 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
+        <!--Using my own authentication project/module-->
         <dependency>
             <groupId>io.github.taowang0622</groupId>
             <artifactId>security-browser</artifactId>

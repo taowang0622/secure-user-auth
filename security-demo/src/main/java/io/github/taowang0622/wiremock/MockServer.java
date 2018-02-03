@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.core.io.ClassPathResource;
 
+import java.io.File;
 import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
