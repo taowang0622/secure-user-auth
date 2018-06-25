@@ -1,6 +1,5 @@
-package io.github.taowang0622.browser;
+package io.github.taowang0622.browser.config;
 
-import io.github.taowang0622.browser.authentication.AuthSuccessHandler;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -27,7 +26,17 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private AuthenticationSuccessHandler authSuccessHandler;
     @Autowired
-    private AuthenticationFailureHandler autheFailureHandler;
+    private AuthenticationFailureHandler authFailureHandler;
+
+    private static final String[] AUTH_WHITELIST = {
+            // -- swagger ui
+            "/swagger-resources/**",
+            "/swagger-ui.html",
+            "/v2/api-docs",
+            "/webjars/**",
+
+            "/authentication/require"
+    };
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -44,15 +53,21 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
                 //Log in using HTTP prompt!!
                 //This is the default config of spring security!!
                 .successHandler(authSuccessHandler)
-                .failureHandler(autheFailureHandler)
+                .failureHandler(authFailureHandler)
 //        http.httpBasic()
                 .and()
+                //By default, accessing all URLs is required to authenticate.
+                //By using authorizeRequests, we can customize authenticating or not authenticating specific URLs
+                //We can even add more specific restrictions to URLs, like only admin can access "/admin/**", etc!!
                 .authorizeRequests()
                 //Note that loginPage controller method configured above and the login HTML page URL redirected don't need to authenticate!!
-                .antMatchers("/authentication/require",
-                        securityProperties.getBrowser().getLoginPage()).permitAll()
-                .anyRequest()
-                .authenticated()
+                //Allow anyone (including unauthenticated users) to access to matched URLs.
+                .antMatchers(securityProperties.getBrowser().getLoginPage()).permitAll()
+                .antMatchers(AUTH_WHITELIST).permitAll()
+                //Any URL that starts with “/admin/” must be an administrative user.
+//                .antMatchers("/admin/**").hasRole("ADMIN")
+                //All remaining URLs require that the user be successfully authenticated
+                .anyRequest().authenticated()
                 .and()
                 //csrf() provides configurations on Cross-Site Request Forgery(CSRF) Protection!!
                 .csrf().disable();

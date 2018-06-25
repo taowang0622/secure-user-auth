@@ -1,4 +1,4 @@
-package io.github.taowang0622.browser;
+package io.github.taowang0622.browser.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

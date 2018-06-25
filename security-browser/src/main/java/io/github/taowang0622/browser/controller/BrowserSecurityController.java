@@ -1,4 +1,4 @@
-package io.github.taowang0622.browser;
+package io.github.taowang0622.browser.controller;
 
 import io.github.taowang0622.browser.dto.SimpleResponse;
 import io.github.taowang0622.core.properties.SecurityProperties;
@@ -23,7 +23,7 @@ import java.io.IOException;
 @RestController
 public class BrowserSecurityController {
     //This class is from "org.springframework.security.web.savedrequest"
-    //Through this class, we can get the request before redirecting to this api!!!
+    //Through this class, we can get the request before redirecting!!!
     private RequestCache requestCache = new HttpSessionRequestCache();
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
