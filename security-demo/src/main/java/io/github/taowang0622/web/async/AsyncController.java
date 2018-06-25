@@ -2,6 +2,7 @@ package io.github.taowang0622.web.async;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.core.util.StatusPrinter;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang.RandomStringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,6 +38,7 @@ public class AsyncController {
     @Autowired
     private DeferredResultHolder deferredResultHolder;
 
+    @ApiOperation("Place an order to try the application of DeferredResult on message queue")
     @GetMapping("/order")
     public DeferredResult<String> order() throws InterruptedException {
         logger.info("Main thread starts");

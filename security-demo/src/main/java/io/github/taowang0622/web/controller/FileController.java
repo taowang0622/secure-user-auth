@@ -1,6 +1,7 @@
 package io.github.taowang0622.web.controller;
 
 import io.github.taowang0622.dto.FileInfo;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.IOUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -15,6 +16,7 @@ import java.util.Date;
 public class FileController {
     private final String folder = "D:/JAVA_PROJECTS/secure-user-auth/security-demo/src/main/java/io/github/taowang0622/web/controller/";
 
+    @ApiOperation("Upload a text file")
     @PostMapping
     public FileInfo upload(@RequestParam("file") MultipartFile f) throws IOException {
         System.out.println(f.getName());
@@ -28,6 +30,7 @@ public class FileController {
         return new FileInfo(localFile.getAbsolutePath());
     }
 
+    @ApiOperation("Download a text file")
     @GetMapping("/{id}")
     public void download(@PathVariable String id, HttpServletRequest request, HttpServletResponse response) throws IOException {
         //try(*resources*){...}catch{...}finally{...}=====>try-with-resources statement!!

@@ -1,4 +1,4 @@
-package io.github.taowang0622.browser;
+package io.github.taowang0622.browser.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-//This service will be used by filters to authenticate passed username and password!!
+//This UserDetailsService will be used by filters to authenticate passed username and password!!
+//This UserDetailsService provides UserDetails objects after authentication!!
+//UserDetailsService only has one method that's "loadUserByUsername" that returns a UserDetails object!!if not able to find passed user, then
+//throw an exception, because no UserDetails to return!!
 @Component
 public class MyUserDetailsService implements UserDetailsService{
     private Logger logger = LoggerFactory.getLogger(this.getClass());

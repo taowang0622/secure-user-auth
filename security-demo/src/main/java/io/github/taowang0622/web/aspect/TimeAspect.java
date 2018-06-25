@@ -26,7 +26,7 @@ public class TimeAspect {
 
         System.out.println("The execution of the method took " + (new Date().getTime() - startTime) + "ms");
 
-        System.out.println("Existing from time aspect");
+        System.out.println("Exiting from time aspect");
 
         //Passing the return value from matched method to the next stage
         // [method->aspect->ControllerAdvice->Interceptors->filter]
