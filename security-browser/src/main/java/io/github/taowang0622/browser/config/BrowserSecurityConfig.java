@@ -29,11 +29,12 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     private AuthenticationFailureHandler authFailureHandler;
 
     private static final String[] AUTH_WHITELIST = {
-            // -- swagger ui
-            "/swagger-resources/**",
-            "/swagger-ui.html",
-            "/v2/api-docs",
-            "/webjars/**",
+            // -- swagger ui --
+            // Playing around with REST endpoints in swagger-ui.html should be protected!!
+//            "/swagger-resources/**",
+//            "/swagger-ui.html",
+//            "/v2/api-docs",
+//            "/webjars/**",
 
             "/authentication/require"
     };
