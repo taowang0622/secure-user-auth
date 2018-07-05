@@ -36,7 +36,7 @@ public class AuthFailureHandler extends SimpleUrlAuthenticationFailureHandler {
         if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
             response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
             response.setContentType("application/json;charset=UTF8");
-            response.getWriter().write(objectMapper.writeValueAsString(exception));
+            response.getWriter().write(objectMapper.writeValueAsString(exception.getMessage()));
         } else {
             //redirection
             super.onAuthenticationFailure(request, response, exception);

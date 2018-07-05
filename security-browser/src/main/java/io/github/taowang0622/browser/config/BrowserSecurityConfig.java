@@ -1,5 +1,6 @@
 package io.github.taowang0622.browser.config;
 
+import io.github.taowang0622.core.code.validation.CodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @Configuration
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -36,13 +38,21 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 //            "/v2/api-docs",
 //            "/webjars/**",
 
-            "/authentication/require"
+            "/authentication/require",
+            "/code/image"
     };
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        CodeValidationFilter codeValidationFilter = new CodeValidationFilter();
+        codeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
+        codeValidationFilter.setSecurityProperties(securityProperties);
+        codeValidationFilter.afterPropertiesSet();
+
         //Log in using <form></form>!!
-        http.formLogin()
+        http
+                .addFilterBefore(codeValidationFilter, UsernamePasswordAuthenticationFilter.class)
+                .formLogin()
                 //Redirecting to/Returning a HTML page violates the principle of RESTful APIs!!!
                 //To work around it, need to write a controller method!!!
 //                .loginPage("/default-login-page.html")
