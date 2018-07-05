@@ -1,2 +1,2 @@
 # secure-user-auth
-Reusable secure user authentication module based on Spring Security, Spring Social.
+A secure user authentication maven module based on Spring Security, Spring Social and Spring Boot.
