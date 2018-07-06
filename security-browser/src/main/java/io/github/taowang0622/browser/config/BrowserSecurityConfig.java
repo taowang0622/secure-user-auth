@@ -3,25 +3,24 @@ package io.github.taowang0622.browser.config;
 import io.github.taowang0622.core.code.validation.CodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+
+import javax.sql.DataSource;
 
 @Configuration
 public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        //BCryptPasswordEncoder is an implementation of PasswordEncoder that uses the BCrypt strong hashing function.
-        return new BCryptPasswordEncoder();
-    }
-
     @Autowired
     private SecurityProperties securityProperties;
 
@@ -29,6 +28,27 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     private AuthenticationSuccessHandler authSuccessHandler;
     @Autowired
     private AuthenticationFailureHandler authFailureHandler;
+
+    @Autowired
+    private UserDetailsService myUserDetailsService;
+
+    @Qualifier("dataSource")
+    @Autowired
+    private DataSource dataSource;
+
+    @Bean
+    public PersistentTokenRepository persistentTokenRepository() {
+        JdbcTokenRepositoryImpl jdbcTokenRepository = new JdbcTokenRepositoryImpl();
+        jdbcTokenRepository.setDataSource(dataSource);
+//        jdbcTokenRepository.setCreateTableOnStartup(true);
+        return jdbcTokenRepository;
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        //BCryptPasswordEncoder is an implementation of PasswordEncoder that uses the BCrypt strong hashing function.
+        return new BCryptPasswordEncoder();
+    }
 
     private static final String[] AUTH_WHITELIST = {
             // -- swagger ui --
@@ -65,6 +85,12 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
                 //This is the default config of spring security!!
                 .successHandler(authSuccessHandler)
                 .failureHandler(authFailureHandler)
+                .and()
+                .rememberMe()
+                .key("sasdsdklash&(*&*#&@*&")
+                .userDetailsService(myUserDetailsService)
+                .tokenRepository(persistentTokenRepository())
+                .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
 //        http.httpBasic()
                 .and()
                 //By default, accessing all URLs is required to authenticate.

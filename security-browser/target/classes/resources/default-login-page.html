@@ -10,19 +10,24 @@
 <form action="/authentication/form" method="post">
     <table>
         <tr>
-            <td>User Name: </td>
+            <td>User Name:</td>
             <td><input type="text" name="username"></td>
         </tr>
         <tr>
-            <td>Password: </td>
+            <td>Password:</td>
             <td><input type="password" name="password"></td>
         </tr>
         <tr>
-            <td>Verification Code: </td>
+            <td>Verification Code:</td>
             <td>
                 <input type="text" name="verificationCode">
                 <img src="/code/image?width=200">
             </td>
+        </tr>
+        <tr>
+            <td>Remember Me:</td>
+            <!--Note that the attribute name must ne "remember-me", otherwise remember-me authentication cannot be triggered-->
+            <td><input type="checkbox" name="remember-me"/></td>
         </tr>
         <tr>
             <td><input type="submit"></td>

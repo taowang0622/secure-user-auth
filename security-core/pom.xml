@@ -31,6 +31,7 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <!--Meaning when spring boot starts, there should be a connection to DB!-->
+        <!--This dependency introduces a DB connection pool "HikariDP" to the project-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
