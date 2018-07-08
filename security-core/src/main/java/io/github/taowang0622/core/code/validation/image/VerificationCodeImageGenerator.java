@@ -1,7 +1,7 @@
-package io.github.taowang0622.core.code.validation;
+package io.github.taowang0622.core.code.validation.image;
 
+import io.github.taowang0622.core.code.validation.VerificationCodeGenerator;
 import io.github.taowang0622.core.properties.SecurityProperties;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 
-public class VerificationCodeImageGenerator implements VerificationCodeGenerator{
+public class VerificationCodeImageGenerator implements VerificationCodeGenerator {
 //    @Autowired
     private SecurityProperties securityProperties;
 

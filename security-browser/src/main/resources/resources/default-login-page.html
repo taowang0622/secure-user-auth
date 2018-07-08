@@ -34,5 +34,26 @@
         </tr>
     </table>
 </form>
+
+<h2>SMS login</h2>
+<form action="/authentication/mobile" method="post">
+    <table>
+        <tr>
+            <td>Phone Number:</td>
+            <td><input type="text" name="phone-number" value="6475506511"></td>
+        </tr>
+        <tr>
+            <td>Verification Code:</td>
+            <td>
+                <input type="text" name="verificationCode">
+                <a href="/code/sms?phone-number=6475506511">Send Verification Code</a>
+                (The sending link should be async, but here it's sync for simplicity)
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

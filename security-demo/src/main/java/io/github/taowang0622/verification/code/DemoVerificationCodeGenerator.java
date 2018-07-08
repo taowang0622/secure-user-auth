@@ -1,6 +1,6 @@
 package io.github.taowang0622.verification.code;
 
-import io.github.taowang0622.core.code.validation.ImageCode;
+import io.github.taowang0622.core.code.validation.image.ImageCode;
 import io.github.taowang0622.core.code.validation.VerificationCodeGenerator;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
 import java.util.Random;
 
 /**
- * By naming this bean as "verificationCodeImageGenerator", it would "override" the default verification code image generator bean(actually that won't be created)
+ * By naming this bean as "imageCodeGenerator", it would "override" the default verification code image generator bean(actually that won't be created)
  */
 @Component("verificationCodeImageGenerator")
 public class DemoVerificationCodeGenerator implements VerificationCodeGenerator {

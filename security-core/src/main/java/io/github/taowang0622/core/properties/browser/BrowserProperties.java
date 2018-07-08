@@ -1,4 +1,6 @@
-package io.github.taowang0622.core.properties;
+package io.github.taowang0622.core.properties.browser;
+
+import io.github.taowang0622.core.properties.LoginType;
 
 public class BrowserProperties {
     private String loginPage = "/default-login-page.html";

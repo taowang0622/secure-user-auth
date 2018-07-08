@@ -1,5 +1,8 @@
 package io.github.taowang0622.core.code.validation;
 
+import io.github.taowang0622.core.code.validation.image.VerificationCodeImageGenerator;
+import io.github.taowang0622.core.code.validation.sms.DefaultSmsProvider;
+import io.github.taowang0622.core.code.validation.sms.SmsProvider;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -12,10 +15,16 @@ public class VerificationCodeGeneratorBeanConfig {
     private SecurityProperties securityProperties;
 
     @Bean
-    @ConditionalOnMissingBean(name = "verificationCodeImageGenerator")
-    public VerificationCodeGenerator verificationCodeImageGenerator() {
+    @ConditionalOnMissingBean(name = "imageCodeGenerator")
+    public VerificationCodeGenerator imageCodeGenerator() {
         VerificationCodeImageGenerator verificationCodeImageGenerator = new VerificationCodeImageGenerator();
         verificationCodeImageGenerator.setSecurityProperties(securityProperties);
         return verificationCodeImageGenerator;
+    }
+
+    @Bean
+    @ConditionalOnMissingBean(SmsProvider.class)
+    public SmsProvider smsProvider() {
+        return new DefaultSmsProvider();
     }
 }

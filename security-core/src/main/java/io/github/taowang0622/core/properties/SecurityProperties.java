@@ -1,5 +1,7 @@
 package io.github.taowang0622.core.properties;
 
+import io.github.taowang0622.core.properties.browser.BrowserProperties;
+import io.github.taowang0622.core.properties.verification.code.VerificationCodeProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "security")

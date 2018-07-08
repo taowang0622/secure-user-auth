@@ -1,27 +1,10 @@
-package io.github.taowang0622.core.properties;
+package io.github.taowang0622.core.properties.verification.code;
 
-public class VerificationCodeImageProperties {
-    private int width = 67;
-    private int height = 23;
-    private int length = 4;
+public class VerificationCodeSmsProperties {
+    private int length = 6;
     private int timeToLive = 60; //in seconds
     private String url;
 
-    public int getWidth() {
-        return width;
-    }
-
-    public void setWidth(int width) {
-        this.width = width;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
 
     public int getLength() {
         return length;

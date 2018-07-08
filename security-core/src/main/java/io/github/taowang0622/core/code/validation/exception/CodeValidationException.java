@@ -1,4 +1,4 @@
-package io.github.taowang0622.core.code.validation;
+package io.github.taowang0622.core.code.validation.exception;
 
 
 import org.springframework.security.core.AuthenticationException;

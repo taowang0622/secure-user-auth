@@ -59,7 +59,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 //            "/webjars/**",
 
             "/authentication/require",
-            "/code/image"
+            "/code/*"
     };
 
     @Override
