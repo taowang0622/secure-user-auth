@@ -48,7 +48,7 @@ public abstract class AbastractVerificationCodeProcessor<C> implements Verificat
      * @param verificationCode
      */
     private void store(ServletWebRequest request, C verificationCode) {
-        sessionStrategy.setAttribute(request, SESSION_KEY_PREFIX + getProcessorType(request), verificationCode);
+        sessionStrategy.setAttribute(request, SESSION_KEY_PREFIX + StringUtils.upperCase(getProcessorType(request)), verificationCode);
     }
 
     /**

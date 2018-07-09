@@ -1,5 +1,6 @@
-package io.github.taowang0622.core.code.validation;
+package io.github.taowang0622.core.code.validation.config;
 
+import io.github.taowang0622.core.code.validation.VerificationCodeGenerator;
 import io.github.taowang0622.core.code.validation.image.VerificationCodeImageGenerator;
 import io.github.taowang0622.core.code.validation.sms.DefaultSmsProvider;
 import io.github.taowang0622.core.code.validation.sms.SmsProvider;

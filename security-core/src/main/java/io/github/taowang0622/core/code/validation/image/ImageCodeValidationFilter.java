@@ -1,5 +1,6 @@
-package io.github.taowang0622.core.code.validation;
+package io.github.taowang0622.core.code.validation.image;
 
+import io.github.taowang0622.core.code.validation.VerificationCodeProcessor;
 import io.github.taowang0622.core.code.validation.exception.CodeValidationException;
 import io.github.taowang0622.core.code.validation.image.ImageCode;
 import io.github.taowang0622.core.properties.SecurityProperties;
@@ -23,7 +24,9 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CodeValidationFilter extends OncePerRequestFilter implements InitializingBean {
+public class ImageCodeValidationFilter extends OncePerRequestFilter implements InitializingBean {
+    private static final String SESSION_KEY = VerificationCodeProcessor.SESSION_KEY_PREFIX + "IMAGE";
+
     private AuthenticationFailureHandler authenticationFailureHandler;
     private SessionStrategy sessionStrategy = new HttpSessionSessionStrategy();
 
@@ -74,29 +77,29 @@ public class CodeValidationFilter extends OncePerRequestFilter implements Initia
     }
 
     private void validate(ServletWebRequest request) throws ServletRequestBindingException {
-//        ImageCode codeInSession = (ImageCode) sessionStrategy.getAttribute(request, CodeValidationController.SESSION_KEY);
-//
-//        String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(), "verificationCode");
-//
-//        if (StringUtils.isBlank(codeInRequest)) {
-//            throw new CodeValidationException("The verification code cannot be empty");
-//        }
-//
-//        if (codeInSession == null) {
-//            throw new CodeValidationException("The verification code does not exist");
-//        }
-//
-//        if (codeInSession.isExpired()) {
-//            sessionStrategy.removeAttribute(request, CodeValidationController.SESSION_KEY);
-//            throw new CodeValidationException("The verification code is expired");
-//        }
-//
-//        if (!StringUtils.equals(codeInSession.getCode(), codeInRequest)) {
-//            throw new CodeValidationException("The input verification code does not match");
-//        }
-//
-//        //Validation is successful, then remove the verification code from the session
-//        sessionStrategy.removeAttribute(request, CodeValidationController.SESSION_KEY);
+        ImageCode codeInSession = (ImageCode) sessionStrategy.getAttribute(request, SESSION_KEY);
+
+        String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(), "verificationCode");
+
+        if (StringUtils.isBlank(codeInRequest)) {
+            throw new CodeValidationException("The verification code cannot be empty");
+        }
+
+        if (codeInSession == null) {
+            throw new CodeValidationException("The verification code does not exist");
+        }
+
+        if (codeInSession.isExpired()) {
+            sessionStrategy.removeAttribute(request, SESSION_KEY);
+            throw new CodeValidationException("The verification code is expired");
+        }
+
+        if (!StringUtils.equals(codeInSession.getCode(), codeInRequest)) {
+            throw new CodeValidationException("The input verification code does not match");
+        }
+
+        //Validation is successful, then remove the verification code from the session
+        sessionStrategy.removeAttribute(request, SESSION_KEY);
     }
 
     public AuthenticationFailureHandler getAuthenticationFailureHandler() {

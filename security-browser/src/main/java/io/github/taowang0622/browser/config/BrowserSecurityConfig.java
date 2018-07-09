@@ -1,6 +1,6 @@
 package io.github.taowang0622.browser.config;
 
-import io.github.taowang0622.core.code.validation.CodeValidationFilter;
+import io.github.taowang0622.core.code.validation.image.ImageCodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -64,7 +64,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        CodeValidationFilter codeValidationFilter = new CodeValidationFilter();
+        ImageCodeValidationFilter codeValidationFilter = new ImageCodeValidationFilter();
         codeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
         codeValidationFilter.setSecurityProperties(securityProperties);
         codeValidationFilter.afterPropertiesSet();

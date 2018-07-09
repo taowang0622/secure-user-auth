@@ -15,7 +15,7 @@ import java.util.Random;
 /**
  * By naming this bean as "imageCodeGenerator", it would "override" the default verification code image generator bean(actually that won't be created)
  */
-@Component("verificationCodeImageGenerator")
+@Component("imageCodeGenerator")
 public class DemoVerificationCodeGenerator implements VerificationCodeGenerator {
     @Autowired
     private SecurityProperties securityProperties;
