@@ -1,7 +1,10 @@
 package io.github.taowang0622.browser.config;
 
 import io.github.taowang0622.core.code.validation.image.ImageCodeValidationFilter;
+import io.github.taowang0622.core.code.validation.sms.SmsCodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
+import io.github.taowang0622.core.sms.authentication.SmsCodeAuthenticationFilter;
+import io.github.taowang0622.core.sms.authentication.SmsCodeAuthenticationSecurityConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -36,6 +39,9 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
 
+    @Autowired
+    private SmsCodeAuthenticationSecurityConfig smsCodeAuthenticationSecurityConfig;
+
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {
         JdbcTokenRepositoryImpl jdbcTokenRepository = new JdbcTokenRepositoryImpl();
@@ -64,14 +70,20 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        ImageCodeValidationFilter codeValidationFilter = new ImageCodeValidationFilter();
-        codeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
-        codeValidationFilter.setSecurityProperties(securityProperties);
-        codeValidationFilter.afterPropertiesSet();
+        ImageCodeValidationFilter imageCodeValidationFilter = new ImageCodeValidationFilter();
+        imageCodeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
+        imageCodeValidationFilter.setSecurityProperties(securityProperties);
+        imageCodeValidationFilter.afterPropertiesSet();
+
+        SmsCodeValidationFilter smsCodeValidationFilter = new SmsCodeValidationFilter();
+        smsCodeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
+        smsCodeValidationFilter.setSecurityProperties(securityProperties);
+        smsCodeValidationFilter.afterPropertiesSet();
 
         //Log in using <form></form>!!
         http
-                .addFilterBefore(codeValidationFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(smsCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(imageCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
                 .formLogin()
                 //Redirecting to/Returning a HTML page violates the principle of RESTful APIs!!!
                 //To work around it, need to write a controller method!!!
@@ -107,6 +119,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 //csrf() provides configurations on Cross-Site Request Forgery(CSRF) Protection!!
-                .csrf().disable();
+                .csrf().disable()
+                .apply(smsCodeAuthenticationSecurityConfig);
     }
 }
