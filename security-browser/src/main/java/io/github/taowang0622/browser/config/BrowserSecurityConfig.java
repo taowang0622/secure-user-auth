@@ -1,7 +1,6 @@
 package io.github.taowang0622.browser.config;
 
-import io.github.taowang0622.core.code.validation.image.ImageCodeValidationFilter;
-import io.github.taowang0622.core.code.validation.sms.SmsCodeValidationFilter;
+import io.github.taowang0622.core.code.validation.VerificationCodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
 import io.github.taowang0622.core.sms.authentication.SmsCodeAuthenticationFilter;
 import io.github.taowang0622.core.sms.authentication.SmsCodeAuthenticationSecurityConfig;
@@ -34,6 +33,9 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private UserDetailsService myUserDetailsService;
+
+    @Autowired
+    private VerificationCodeValidationFilter verificationCodeValidationFilter;
 
     @Qualifier("dataSource")
     @Autowired
@@ -70,20 +72,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        ImageCodeValidationFilter imageCodeValidationFilter = new ImageCodeValidationFilter();
-        imageCodeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
-        imageCodeValidationFilter.setSecurityProperties(securityProperties);
-        imageCodeValidationFilter.afterPropertiesSet();
-
-        SmsCodeValidationFilter smsCodeValidationFilter = new SmsCodeValidationFilter();
-        smsCodeValidationFilter.setAuthenticationFailureHandler(authFailureHandler);
-        smsCodeValidationFilter.setSecurityProperties(securityProperties);
-        smsCodeValidationFilter.afterPropertiesSet();
-
-        //Log in using <form></form>!!
         http
-                .addFilterBefore(smsCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
-                .addFilterBefore(imageCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(verificationCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
                 .formLogin()
                 //Redirecting to/Returning a HTML page violates the principle of RESTful APIs!!!
                 //To work around it, need to write a controller method!!!

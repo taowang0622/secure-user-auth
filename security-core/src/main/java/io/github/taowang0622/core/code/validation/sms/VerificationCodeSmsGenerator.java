@@ -1,5 +1,6 @@
 package io.github.taowang0622.core.code.validation.sms;
 
+import io.github.taowang0622.core.SecurityConstants;
 import io.github.taowang0622.core.code.validation.VerificationCodeGenerator;
 import io.github.taowang0622.core.code.validation.VerificationCode;
 import io.github.taowang0622.core.properties.SecurityProperties;
@@ -11,7 +12,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 /**
  * SMS code is just a string of random numbers, unlike the image code has many implementations
  */
-@Component("smsCodeGenerator")
+@Component(SecurityConstants.DEFAULT_VERIFICATION_CODE_GENERATOR_SMS)
 public class VerificationCodeSmsGenerator implements VerificationCodeGenerator {
     @Autowired
     private SecurityProperties securityProperties;

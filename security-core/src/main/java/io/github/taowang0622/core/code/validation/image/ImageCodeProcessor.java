@@ -1,5 +1,6 @@
 package io.github.taowang0622.core.code.validation.image;
 
+import io.github.taowang0622.core.SecurityConstants;
 import io.github.taowang0622.core.code.validation.impl.AbastractVerificationCodeProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -7,7 +8,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
-@Component
+@Component(SecurityConstants.DEFAULT_VERIFICATION_CODE_PROCESSOR_FORM)
 public class ImageCodeProcessor extends AbastractVerificationCodeProcessor<ImageCode>{
 
     @Override

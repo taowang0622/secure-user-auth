@@ -1,7 +1,9 @@
 package io.github.taowang0622.core.code.validation.sms;
 
+import io.github.taowang0622.core.SecurityConstants;
 import io.github.taowang0622.core.code.validation.VerificationCode;
 import io.github.taowang0622.core.code.validation.impl.AbastractVerificationCodeProcessor;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.ServletRequestBindingException;
@@ -10,7 +12,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 
 import java.io.IOException;
 
-@Component
+@Component(SecurityConstants.DEFAULT_VERIFICATION_CODE_PROCESSOR_SMS)
 public class SmsCodeProcessor extends AbastractVerificationCodeProcessor<VerificationCode> {
     @Autowired
     private SmsProvider smsProvider;
