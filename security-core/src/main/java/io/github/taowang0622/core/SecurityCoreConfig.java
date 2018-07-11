@@ -1,6 +1,7 @@
 package io.github.taowang0622.core;
 
 import io.github.taowang0622.core.properties.SecurityProperties;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 

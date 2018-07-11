@@ -1,9 +1,10 @@
 package io.github.taowang0622.core.properties.browser;
 
+import io.github.taowang0622.core.SecurityConstants;
 import io.github.taowang0622.core.properties.LoginType;
 
 public class BrowserProperties {
-    private String loginPage = "/default-login-page.html";
+    private String loginPage = SecurityConstants.DEFAULT_LOGIN_PAGE;
 
     private LoginType loginType = LoginType.JSON;
 
