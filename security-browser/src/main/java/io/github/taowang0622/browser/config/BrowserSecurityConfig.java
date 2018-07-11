@@ -1,5 +1,6 @@
 package io.github.taowang0622.browser.config;
 
+import io.github.taowang0622.core.SecurityConstants;
 import io.github.taowang0622.core.code.validation.CodeValidationSecurityConfig;
 import io.github.taowang0622.core.password.authentication.AbstractChannelSecurityConfig;
 import io.github.taowang0622.core.code.validation.VerificationCodeValidationFilter;
@@ -51,17 +52,6 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
         return new BCryptPasswordEncoder();
     }
 
-    private static final String[] AUTH_WHITELIST = {
-            // -- swagger ui --
-            // Playing around with REST endpoints in swagger-ui.html should be protected!!
-//            "/swagger-resources/**",
-//            "/swagger-ui.html",
-//            "/v2/api-docs",
-//            "/webjars/**",
-
-            "/authentication/require",
-            "/code/*"
-    };
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -86,8 +76,12 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
                 .authorizeRequests()
                     //Note that loginPage controller method configured above and the login HTML page URL redirected don't need to authenticate!!
                     //Allow anyone (including unauthenticated users) to access to matched URLs.
-                    .antMatchers(securityProperties.getBrowser().getLoginPage()).permitAll()
-                    .antMatchers(AUTH_WHITELIST).permitAll()
+                    .antMatchers(
+                            securityProperties.getBrowser().getLoginPage(),
+                            SecurityConstants.DEFAULT_UNAUTHENTICATION_URL,
+                            SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_SMS,
+                            SecurityConstants.DEFAULT_VERIFICATION_CODE_URL_PREFIX + "/*")
+                            .permitAll()
                     //Any URL that starts with “/admin/” must be an administrative user.
     //                .antMatchers("/admin/**").hasRole("ADMIN")
                     //All remaining URLs require that the user be successfully authenticated
