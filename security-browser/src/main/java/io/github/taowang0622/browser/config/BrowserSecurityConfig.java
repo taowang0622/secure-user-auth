@@ -1,5 +1,6 @@
 package io.github.taowang0622.browser.config;
 
+import io.github.taowang0622.core.code.validation.CodeValidationSecurityConfig;
 import io.github.taowang0622.core.password.authentication.AbstractChannelSecurityConfig;
 import io.github.taowang0622.core.code.validation.VerificationCodeValidationFilter;
 import io.github.taowang0622.core.properties.SecurityProperties;
@@ -26,8 +27,6 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
     @Autowired
     private UserDetailsService myUserDetailsService;
 
-    @Autowired
-    private VerificationCodeValidationFilter verificationCodeValidationFilter;
 
     @Qualifier("dataSource")
     @Autowired
@@ -35,7 +34,8 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 
     @Autowired
     private SmsCodeAuthenticationSecurityConfig smsCodeAuthenticationSecurityConfig;
-
+    @Autowired
+    private CodeValidationSecurityConfig codeValidationSecurityConfig;
 
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {
@@ -68,10 +68,13 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
         applyUsernamePasswordAuthenticationConfigs(http);
 
         http
-                .addFilterBefore(verificationCodeValidationFilter, UsernamePasswordAuthenticationFilter.class)
-//                .and()
+                .apply(smsCodeAuthenticationSecurityConfig)
+                    .and()
+                .apply(codeValidationSecurityConfig)
+                    .and()
+                //The followings are browser-only configurations!!
                 .rememberMe()
-                .key("sasdsdklash&(*&*#&@*&")
+                    .key("sasdsdklash&(*&*#&@*&")
                     .userDetailsService(myUserDetailsService)
                     .tokenRepository(persistentTokenRepository())
                     .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
@@ -91,7 +94,6 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
                     .anyRequest().authenticated()
                     .and()
                 //csrf() provides configurations on Cross-Site Request Forgery(CSRF) Protection!!
-                .csrf().disable()
-                .apply(smsCodeAuthenticationSecurityConfig);
+                .csrf().disable();
     }
 }
